@@ -17,9 +17,3 @@ docker compose up -d
 ```
 npx prisma migrate dev --name init
 ```
-
-# Postgres liked my actual username for the .env url (see below issue):
-https://github.com/remix-run/blues-stack/issues/49 
-```
-postgresql://tom:password@localhost:5432/postgres?schema=public
-```
